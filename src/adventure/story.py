@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
 
     print("[bold bright_cyan]You wake up in a dark forest. You can go [green]left[/green] or [yellow]right[/yellow].[/bold bright_cyan]")
-
+    print("[bold]Which direction do you choose?[/bold] ([green]left[/green]/[yellow]right[/yellow]/[purple]exit[/purple])")
     while True:
         choice = input("Which direction do you choose? (left/right/exit): ")
         choice = choice.strip().lower()
